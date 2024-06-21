@@ -1,0 +1,46 @@
+[
+
+    {
+      "id": 1,
+      "questionText": "What is the time complexity of the binary search algorithm?",
+      "answerOptions": [
+        { "answerText": "O(n)", "isCorrect": false },
+        { "answerText": "O(n log n)", "isCorrect": false },
+        { "answerText": "O(log n)", "isCorrect": true },
+        { "answerText": "O(n^2)", "isCorrect": false }
+      ],
+      "multipleCorrect": false,
+      "type":"singleChoice"
+    },
+    {
+      "id": 2,
+      "questionText": "Which of the following are NoSQL databases?",
+      "answerOptions": [
+        { "answerText": "MySQL", "isCorrect": false },
+        { "answerText": "MongoDB", "isCorrect": true },
+        { "answerText": "Cassandra", "isCorrect": true },
+        { "answerText": "PostgreSQL", "isCorrect": false }
+      ],
+      "multipleCorrect": true
+    },
+    {
+      "id": 4,
+      "questionText": "The currency of Japan is _________",
+      "answerOptions": [],
+      "correctAnswers": "Yen",
+      "type": "fillInBlank"
+    },
+    {
+      "id": 5,
+      "questionText": "Match the following:",
+      "answerOptions": [],
+      "type": "matchTheFollowing",
+      "pairs": [
+        { "question": "Cat", "answer": "Meow" },
+        { "question": "Dog", "answer": "Bark" },
+        { "question": "Cow", "answer": "Moo" },
+        { "question": "Tiger", "answer": "Roar" }
+      ]
+    }
+]
+  
